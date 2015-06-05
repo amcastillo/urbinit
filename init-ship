@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-SHIP=ropnub-tilfyl
-CONT=ropnub
+SHIP=hunbun-wonderd
+CONT=hunbun
 LOCKFILE="$HOME/.dlock/$SHIP.lock"
 
 if [ ! -e $LOCKFILE ]; then
