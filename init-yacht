@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-SHIP=novfes-lodzod
-CONT=novfes
+SHIP=bitpug-fritzer
+CONT=bitpug
 LOCKFILE="$HOME/.dlock/$SHIP.lock"
 
 if [ ! -e $LOCKFILE ]; then
